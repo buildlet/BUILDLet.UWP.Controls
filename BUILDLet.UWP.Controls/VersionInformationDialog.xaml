@@ -1,0 +1,31 @@
+﻿<ContentDialog
+    x:Class="BUILDLet.UWP.Controls.VersionInformationDialog"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BUILDLet.UWP.Controls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Version Information"
+    CloseButtonText="OK"
+    DefaultButton="Close">
+
+    <ContentDialog.Resources>
+        <Style x:Key="Indent" TargetType="TextBlock">
+            <Setter Property="Margin" Value="5,0,0,0"/>
+        </Style>
+        <Style x:Key="Spacing" TargetType="TextBlock">
+            <Setter Property="Margin" Value="5,0,0,0"/>
+        </Style>
+    </ContentDialog.Resources>
+
+    <StackPanel>
+        <TextBlock x:Name="ProductName" d:Text="Product Name" Text="{x:Bind ViewModel.ProductName}" Style="{StaticResource Indent}"/>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock x:Name="VersionLabel" Text="Version" Style="{StaticResource Indent}"/>
+            <TextBlock x:Name="VersionValue" d:Text="x.x.x.x" Text="{x:Bind ViewModel.Version}" Style="{StaticResource Spacing}"/>
+        </StackPanel>
+        <TextBlock x:Name="Copyright" d:Text="Copyright (c) xxxxx" Text="{x:Bind ViewModel.Copyright}" Style="{StaticResource Indent}"/>
+    </StackPanel>
+
+</ContentDialog>

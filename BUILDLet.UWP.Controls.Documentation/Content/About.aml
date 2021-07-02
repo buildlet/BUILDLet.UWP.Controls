@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<topic id="d5ebe8ed-7545-430e-b0f0-8a5b21f1a3ae" revisionNumber="1">
+	<developerConceptualDocument xmlns="http://ddue.schemas.microsoft.com/authoring/2003/5" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <introduction>
+      <para>
+        This is Help Documentation of <application>BUILDLet UWP UI Control Class Library</application>.
+      </para>
+    </introduction>
+
+    <section>
+      <title>Namespaces</title>
+      <content>
+        <para>
+          This Help Documentation describes about the following namespaces.
+        </para>
+        <table>
+
+          <!-- Table Header -->
+          <tableHeader>
+            <row>
+              <entry>
+                <para>Namespace</para>
+              </entry>
+              <entry>
+                <para>Description</para>
+              </entry>
+            </row>
+          </tableHeader>
+
+          <!-- BUILDLet.UWP.Controls -->
+          <row>
+            <entry>
+              <para>
+                <codeEntityReference qualifyHint="true">N:BUILDLet.UWP.Controls</codeEntityReference>
+              </para>
+            </entry>
+            <entry>
+              <para>
+                <!-- Namespace Summaries -->
+                <codeEntityReference qualifyHint="true">N:BUILDLet.UWP.Controls</codeEntityReference>
+                名前空間には <languageKeyword>UWP</languageKeyword> 用の UI コントロール クラスが含まれます。
+              </para>
+            </entry>
+          </row>
+
+        </table>
+      </content>
+    </section>
+    
+    <section>
+      <title>Warning</title>
+      <content>
+        <para>
+          The followings should be added to <userInput>References</userInput> of SHFB project to work <application>SHFB</application> (21.4.9.0) correctly.
+        </para>
+        
+        <list class="ordered">
+          <listItem>
+            <para>
+              <localUri>C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd</localUri>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <localUri>C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd</localUri>
+            </para>
+          </listItem>
+          <listItem>
+            <para>
+              <localUri>C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd</localUri>
+            </para>
+          </listItem>
+        </list>
+      
+      </content>
+    </section>
+
+		<relatedTopics>
+			<link xlink:href="88e76124-a4a2-4c5d-ad45-feb84b92d56e" />
+		</relatedTopics>
+	</developerConceptualDocument>
+</topic>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package >
+  <metadata>
+    <id>BUILDLet.UWP.Controls</id>
+    <version>1.6.1</version>
+    <title>BUILDLet.UWP.Controls</title>
+    <authors>Daiki Sakamoto</authors>
+    <owners>BUILDLet</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/buildlet/BUILDLet.UWP.Controls</projectUrl>
+    <description>BUILDLet UWP UI Control Library</description>
+    <copyright>© 2021 Daiki Sakamoto</copyright>
+    <dependencies>
+      <group targetFramework="uap10.0">
+        <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.2.12"/>
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\Release\BUILDLet.UWP.Controls.dll" target="lib\uap10.0"/>
+    <file src="bin\Release\BUILDLet.UWP.Controls.pri" target="lib\uap10.0"/>
+    <file src="bin\Release\BUILDLet.UWP.Controls.XML" target="lib\uap10.0"/>
+    <file src="bin\Release\BUILDLet.UWP.Controls\BUILDLet.UWP.Controls.xr.xml" target="lib\uap10.0\BUILDLet.UWP.Controls"/>
+  </files>
+</package>
