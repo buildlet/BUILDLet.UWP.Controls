@@ -9,9 +9,14 @@
     <HelpKeywords>
       <HelpKeyword index="K" term="version, history" />
     </HelpKeywords>
-    <Topic id="4b2f8693-cc18-4f87-b8d9-9e9afd66262e" visible="True" isSelected="true" title="Version 1.6.1">
+    <Topic id="4b2f8693-cc18-4f87-b8d9-9e9afd66262e" visible="True" title="Version 1.6.1">
       <HelpKeywords>
         <HelpKeyword index="K" term="version, 1.6.1" />
+      </HelpKeywords>
+    </Topic>
+    <Topic id="5392cb28-846a-4970-a6be-e2816aa16397" visible="True" isSelected="true" title="Version 1.6.6">
+      <HelpKeywords>
+        <HelpKeyword index="K" term="version, 1.6.6" />
       </HelpKeywords>
     </Topic>
   </Topic>

@@ -20,6 +20,18 @@ Build and Test
 
 This project (Visual Studio Solution) is built and tested on Visual Studio.
 
+Remarks
+-------
+
+- The followings are added to **References** of **SHFB project** (*BUILDLet.UWP.Controls.Documentation*) to work *SHFB* (21.4.9.0) correctly.
+  - *C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.UniversalApiContract\10.0.0.0\Windows.Foundation.UniversalApiContract.winmd*
+  - *C:\Program Files (x86)\Windows Kits\10\UnionMetadata\10.0.19041.0\Windows.winmd*
+  - *C:\Program Files (x86)\Windows Kits\10\References\10.0.19041.0\Windows.Foundation.FoundationContract\4.0.0.0\Windows.Foundation.FoundationContract.winmd*
+
+- Namespace of *BUILDLet.UWP.Controls.BUILDLet_WUP_Controls_XamlTypeInfo*, which is automatically generated, is manually removed from **Namespace Summaries** of **SHFB project** (*BUILDLet.UWP.Controls.Documentation*).
+
+- XML manufest of this Nuget Package (*BUILDLet.UWP.Controls.nuspec*) is manually updated.
+
 License
 -------
 
