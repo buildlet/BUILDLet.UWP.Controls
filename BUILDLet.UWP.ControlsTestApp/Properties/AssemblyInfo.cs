@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // アセンブリに関連付けられている情報を変更するには、
 // これらの属性値を変更します。
 [assembly: AssemblyTitle("BUILDLet.UWP.ControlsTestApp")]
-[assembly: AssemblyDescription("Unit Test App for BUILDLet UWP UI Control Library")]
+[assembly: AssemblyDescription("BUILDLet UWP UI Control Library Test App")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("BUILDLet")]
 [assembly: AssemblyProduct("BUILDLet UWP UI Control Library TestApp")]
@@ -24,6 +24,6 @@ using System.Runtime.InteropServices;
 // すべての値を指定するか、次を使用してビルド番号とリビジョン番号を既定に設定できます
 // 既定値にすることができます:
 //[アセンブリ: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.6.1.0")]
-[assembly: AssemblyFileVersion("1.6.1.0")]
+[assembly: AssemblyVersion("1.6.6.0")]
+[assembly: AssemblyFileVersion("1.6.6.0")]
 [assembly: ComVisible(false)]

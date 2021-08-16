@@ -14,10 +14,19 @@
 
         <list class="bullet">
           
-          <!-- Version 1.6 -->
+          <!-- Version 1.6.1 -->
           <listItem>
-						<para><link xlink:href="4b2f8693-cc18-4f87-b8d9-9e9afd66262e" /></para>
-					</listItem>
+            <para>
+              <link xlink:href="4b2f8693-cc18-4f87-b8d9-9e9afd66262e" />
+            </para>
+          </listItem>
+
+          <!-- Version 1.6.2 -->
+          <listItem>
+            <para>
+              <link xlink:href="5392cb28-846a-4970-a6be-e2816aa16397" />
+            </para>
+          </listItem>
 
           <!--
 					<listItem>

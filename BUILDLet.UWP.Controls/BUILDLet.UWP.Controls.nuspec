@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>BUILDLet.UWP.Controls</id>
-    <version>1.6.1</version>
+    <version>1.6.6</version>
     <title>BUILDLet.UWP.Controls</title>
     <authors>Daiki Sakamoto</authors>
     <owners>BUILDLet</owners>
@@ -14,6 +14,7 @@
     <dependencies>
       <group targetFramework="uap10.0">
         <dependency id="Microsoft.NETCore.UniversalWindowsPlatform" version="6.2.12"/>
+        <dependency id="BUILDLet.Standard.Utilities" version="1.6.6"/>
       </group>
     </dependencies>
   </metadata>
